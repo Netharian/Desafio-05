@@ -1,1 +1,48 @@
-// TODO
+.postList {
+  a {
+    display: block;
+    margin: 2.5rem 0;
+
+    strong {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: var(--heading)
+    }
+
+    p {
+      color: var(--info);
+      font-size: 1rem;
+      margin: 0.5rem 0 1rem 0;
+      text-align: justify;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+
+      time {
+        padding-left: 0.5rem;
+        font-size: 0.750rem;
+        margin-right: 1rem;
+      }
+
+      span {
+        padding-left: 0.5rem;
+        font-size: 0.750rem;
+      }
+
+    }
+
+
+
+  }
+
+  button {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--highlight);
+    margin-top: 1rem;
+  }
+}
